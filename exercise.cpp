@@ -11,7 +11,7 @@ int main() {
     
     // Input for Array 1 with validation
     do {
-        cout << "How many elements for Array 1? (max of 10): ";
+        cout << "Enter elements for Array 1? (max of 10): ";
         cin >> one;
         if (one <= 0 || one > 10) {
             cout << "You can only enter 1-10 elements." << endl;
@@ -27,7 +27,7 @@ int main() {
 
     // Input for Array 2 with validation
     do {
-        cout << "How many elements for Array 2? (max of 10): ";
+        cout << "Enter elements for Array 2? (max of 10): ";
         cin >> two;
         if (two <= 0 || two > 10) {
             cout << "You can only enter 1-10 elements." << endl;
